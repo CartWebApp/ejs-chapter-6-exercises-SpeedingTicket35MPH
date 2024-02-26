@@ -8,5 +8,8 @@ let map = {one: true, two: true, hasOwnProperty: true};
 
 // !!! Fix the call code below, do not modify the object above. !!!
 
-console.log(map.hasOwnProperty("one"));
+// console.log(map.hasOwnProperty.call(hasOwnProperty, "true" ) );
 // → true
+console.log(hasOwnProperty.call(map,"hasOwnProperty"))
+// console.log(map.hasOwnProperty("one"));
+// speak.call(hungryRabbit, "Burp!");
